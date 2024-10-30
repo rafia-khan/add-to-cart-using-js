@@ -117,7 +117,12 @@ header .shopping span {
 }
 img {
     width: 300px;
+    box-shadow: #d7a615 0 0 0 3px;
     
+    
+}
+img:hover{
+    transform: scale(1.05);
 }
 
  .title {
@@ -164,7 +169,11 @@ button:hover {
 }
 .listCard li img{
     width: 50%;
+    box-shadow: #d7a615 0 0 0 3px;
+    
 }
+
+
 .listCard button{
     width: auto;
     background-color: #c8993c;
