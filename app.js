@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // HTML এলিমেন্ট সিলেক্ট করা হচ্ছে
     let openShopping = document.querySelector('.shopping');
     let closeShopping = document.querySelector('.closeShopping');
-    let body = document.querySelector('body'); // পুরো বডি সিলেক্ট করা হচ্ছে যাতে ক্লাস যোগ করা যায়
+    let body = document.querySelector('body');
 
-    // শপিং খোলার ইভেন্ট
+    
     openShopping.addEventListener('click', () => {
-        body.classList.add('active'); // শপিং কার্ট খোলা
+        body.classList.add('active');
     });
 
-    // শপিং বন্ধ করার ইভেন্ট
+    
     closeShopping.addEventListener('click', () => {
         body.classList.remove('active');
     });
